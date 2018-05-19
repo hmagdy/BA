@@ -24,7 +24,7 @@ This skeleton application was built for Composer. This makes setting up a new Sl
 7- https://github.com/eloquent/phony
 
 
-### Library No.0:
+### Library No.0: (no actual generation)
 
 To install it:
     
@@ -46,7 +46,7 @@ There are plenty of useful Codeception commands:
 - generate:groupobject group - Generates a sample Group Extension
 
 
-### Library No.1:
+### Library No.1: (generates good skeleton)
 
 -> https://github.com/mihaeu/php-test-generator 
 
@@ -91,13 +91,21 @@ The result will be
     }
 
 
-### Library No.2:
+### Library No.2: (look promising)
 
 -> https://packagist.org/packages/kassko-php/unit-tests-generator
 
 use 
 
     php bin/phpunit ../Demo/src/BA/Helpers/Calculator.php
+
+
+
+### Library No.3:
+
+-> https://github.com/davispeixoto/Laravel-4-Test-Generator
+
+based on Laravel, so not good if any other framework. 
 
 
 
