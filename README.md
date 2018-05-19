@@ -1,4 +1,4 @@
-# Full Spike for PHP Unit Test Generators
+# Full Spike for PHP Unit Test Generators [![Coverage Status](https://coveralls.io/repos/github/hmagdy/BA/badge.svg?branch=master)](https://coveralls.io/github/hmagdy/BA?branch=master)
 
 Use this skeleton application to quickly setup and start working on a new Slim Framework 3 application. This application uses the latest Slim 3 with the PHP-View template renderer. It also uses the Monolog logger.
 
