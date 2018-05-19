@@ -7,12 +7,19 @@ This skeleton application was built for Composer. This makes setting up a new Sl
 ## All repos covered in this spike
 
 0- https://codeception.com/
+
 1- https://packagist.org/packages/paulthebaud/phpunit-generator
+
 2- https://packagist.org/packages/kassko-php/unit-tests-generator
+
 3- https://github.com/davispeixoto/Laravel-4-Test-Generator
+
 4- https://github.com/nikic/PHP-Parser
+
 5- https://www.npmjs.com/package/generator-php-library
+
 6- https://github.com/kahlan/kahlan
+
 7- https://github.com/eloquent/phony
 
 
