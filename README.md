@@ -6,13 +6,14 @@ This skeleton application was built for Composer. This makes setting up a new Sl
 
 ## All repos covered in this spike
 
-https://codeception.com/
-https://packagist.org/packages/paulthebaud/phpunit-generator
-https://packagist.org/packages/kassko-php/unit-tests-generator
-https://github.com/davispeixoto/Laravel-4-Test-Generator
-https://github.com/nikic/PHP-Parser
-https://www.npmjs.com/package/generator-php-library
-
+0- https://codeception.com/
+1- https://packagist.org/packages/paulthebaud/phpunit-generator
+2- https://packagist.org/packages/kassko-php/unit-tests-generator
+3- https://github.com/davispeixoto/Laravel-4-Test-Generator
+4- https://github.com/nikic/PHP-Parser
+5- https://www.npmjs.com/package/generator-php-library
+6- https://github.com/kahlan/kahlan
+7- https://github.com/eloquent/phony
 
 
 ### Library No.0:
@@ -39,7 +40,7 @@ There are plenty of useful Codeception commands:
 
 ### Library No.1:
 
--> https://github.com/mihaeu/php-test-generator √
+-> https://github.com/mihaeu/php-test-generator 
 
 you can use it by:
 
@@ -81,9 +82,21 @@ The result will be
         }
     }
 
-### Library No.4:
+
+### Library No.2:
+
+-> https://packagist.org/packages/kassko-php/unit-tests-generator
+
+use 
+
+    php bin/phpunit ../Demo/src/BA/Helpers/Calculator.php
+
+
+
+### Library No.4 (deprecated):
 
 -> https://github.com/sebastianbergmann/phpunit-skeleton-generator
+-> https://www.reddit.com/r/PHP/comments/5eq4up/why_did_phpunit_skeleton_generator_become/
 
 To install it:
 
@@ -104,13 +117,5 @@ To use it:
     /Applications/XAMPP/bin/php  4-phpunit-skeleton-generator/phpunit-skelgen help generate-test
     /Applications/XAMPP/bin/php  4-phpunit-skeleton-generator/phpunit-skelgen  generate-test class-source Demo/src/BA/Helpers/Calculator.php -vvv
     
-    
-    
-    
-    
-    
-    
-
-
     
 That's it! Now go build something cool.
