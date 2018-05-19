@@ -4,5 +4,9 @@
             <directory>tests</directory>
         </testsuite>
     </testsuites>
-    </testsuites>
+    <!--<filter>-->
+    <!--<whitelist>-->
+        <!--<directory suffix=".php">src/BA/Helpers</directory>-->
+    <!--</whitelist>-->
+<!--</filter>-->
 </phpunit>

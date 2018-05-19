@@ -10,18 +10,30 @@ class Calculator {
         $this->_val2 = $val2;
     }
 
+    /**
+     * @assert () == 12
+     */
     public function add(){
         return $this->_val1 + $this->_val2;
     }
 
+    /**
+     * @assert () == 8
+     */
     public function subtract(){
         return $this->_val1 - $this->_val2;
     }
 
+    /**
+     * @assert () == 20
+     */
     public function multiply (){
         return $this->_val1 * $this->_val2;
     }
 
+    /**
+     * @assert () == 5
+     */
     public function divide () {
         return $this->_val1 / $this->_val2;
     }

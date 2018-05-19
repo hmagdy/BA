@@ -2,3 +2,4 @@
 /logs/*
 !/logs/README.md
 /nbproject/private/
+/Demo/nbproject/private/
