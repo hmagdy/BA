@@ -1,0 +1,9 @@
+# PHPStorm IDE files
+\.idea/
+
+# Composer dependencies
+composer\.lock
+vendor/
+
+# Development
+build/
